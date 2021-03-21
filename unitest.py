@@ -9,9 +9,6 @@ class Test(unittest.TestCase):
         d = time_data1('2019-8-01 00:00:00')
         self.assertEqual(d, 1564614000)
 
-    def test_time_interval(self):
-        d = time_interval(list)
-        self.assertEqual(d, 1)
 
 if __name__ == '__main__':
     unittest.main()
